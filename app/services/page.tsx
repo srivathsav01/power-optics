@@ -28,7 +28,7 @@ export default function ServicesPage() {
       <PageHeader
         eyebrow="Services"
         title="Everything your eyes need, under one roof."
-        intro={`From a thorough eye test to a same-day repair — handled by ${site.optician.name} and our fitting team.`}
+        intro={`From a thorough eye test to a same-day repair — handled by a Registered Optometrist and our fitting team.`}
       >
         <a href="#book" className="mt-6 inline-block text-sm font-medium underline underline-offset-4">
           Skip to booking ↓

@@ -15,13 +15,13 @@ export function VisitStore() {
             <h2 className="mt-2 font-display text-3xl sm:text-5xl">Try them on. See clearly.</h2>
             <p className="mt-4 max-w-lg text-ink-soft">
               Everything you see online is waiting in our store. Walk in for a free frame fitting, or book an eye
-              test with {site.optician.name} ({site.optician.credentials}).
+              test with Registered Optometrist.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href="/services#book">
                 <CalendarCheck className="size-4" /> Book an eye test
               </ButtonLink>
-              <a href={`tel:${site.phoneE164}`} className={buttonClass("secondary")}>
+              <a href={`tel:${site.phone}`} className={buttonClass("secondary")}>
                 <Phone className="size-4" /> {site.phone}
               </a>
             </div>

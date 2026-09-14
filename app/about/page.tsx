@@ -11,7 +11,7 @@ import { fullAddress, site, yearsInBusiness } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "About our store & optometrist",
-  description: `Meet ${site.optician.name}, ${site.optician.credentials}, and the team at ${site.name} in ${site.address.locality}, ${site.address.city} — serving since ${site.foundedYear}.`,
+  description: `Meet a Registered Optometrist and the team at ${site.name} in ${site.address.locality}, ${site.address.city} — serving since ${site.foundedYear}.`,
   alternates: { canonical: "/about" },
 };
 
@@ -46,7 +46,7 @@ export default function AboutPage() {
       </Container>
 
       {/* Optician credentials */}
-      <section className="mt-20 bg-ink py-16 text-paper sm:mt-28 sm:py-24">
+      {/* <section className="mt-20 bg-ink py-16 text-paper sm:mt-28 sm:py-24">
         <Container className="grid gap-10 lg:grid-cols-[1fr_1.3fr] lg:items-center">
           <Reveal>
             <PhotoOrPlaceholder
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </ButtonLink>
           </Reveal>
         </Container>
-      </section>
+      </section> */}
 
       <Container className="py-16 sm:py-24">
         <Reveal>

@@ -25,9 +25,9 @@ export function Footer() {
         <div>
           <p className="font-display text-2xl text-paper">{site.name}</p>
           <p className="mt-2 text-sm">{site.tagline}</p>
-          <p className="mt-4 text-sm">
+          {/* <p className="mt-4 text-sm">
             {site.optician.name} · {site.optician.credentials}
-          </p>
+          </p> */}
         </div>
 
         <div className="space-y-3 text-sm">
@@ -39,7 +39,7 @@ export function Footer() {
           </p>
           <p className="flex gap-2">
             <Phone className="size-4 shrink-0 translate-y-0.5" />
-            <a href={`tel:${site.phoneE164}`} className="hover:text-paper">
+            <a href={`tel:${site.phone}`} className="hover:text-paper">
               {site.phone}
             </a>
           </p>
