@@ -8,7 +8,7 @@ export function TrustAndReviews() {
   const stats = [
     { value: `${yearsInBusiness()}+`, label: "Years in business" },
     { value: site.stats.customers, label: "Happy customers" },
-    { value: `${site.stats.googleRating}★`, label: `${site.stats.googleReviewCount} Google reviews` },
+    { value: `${site.stats.googleRating}★`, label: "Google rating" },
     { value: site.stats.framesInStore, label: "Frames to try on" },
   ];
 
